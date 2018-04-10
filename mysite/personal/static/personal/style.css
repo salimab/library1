@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Fichier mesStyles.css */
+
+#container{
+   border: 1px solid #000;
+   background-color:#EEE;
+   padding:8px;
+   margin:8px;
+   width: 200px;
+}
+body {
+  color:		#ffffff; /* #ffffff = blanc */
+  background-color:	red; /* #000000 = noir */
+  text-align:		center;  /* Texte centré */
+}

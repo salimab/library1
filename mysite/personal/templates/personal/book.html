@@ -1,0 +1,9 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+     <h6>{{ book.title }} </h6>
+     <h6>on {{ book.date }} </h6>
+      {{book.auteur|safe|linebreaks}}
+
+{% endblock %}
+

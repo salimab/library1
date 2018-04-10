@@ -1,0 +1,15 @@
+ {% extends "personal/header.html" %}
+
+ {% block content %}
+ <p>Hey, welcome to my website Bibliotheque</p>
+ <h1>{{ myName }}</h1>
+ <ul>
+     {% for number in numbers %}
+     <Li>{{ number }}</Li>
+     {% endfor %}
+ </ul>
+
+ <button type="button" class="btn btn-primary">Primary</button>
+ {% include "personal/includes/htmlsnippet.html" %}
+
+ {% endblock %}
